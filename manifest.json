@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "getCurrentPosition test",
+  "version": "0.0.1",
+  "description": "test navigator.geolocation.getCurrentPosition behavior in background script",
+  "permissions": [
+    "geolocation"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  }
+}
